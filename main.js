@@ -84,3 +84,36 @@ ScrollReveal({
 }).reveal(
   '#home, #home Image, #home .stats, #product header, #product header img, #product .card, #about, #about header, #about .content'
 )
+
+
+
+
+
+
+
+
+
+function nextImage(carouselId) {
+  const images = document.querySelectorAll(`#${carouselId} .carousel-image`);
+  let currentIndex = [...images].findIndex(img => img.style.display !== "none");
+  
+  images[currentIndex].style.display = "none"; // Esconde a imagem atual
+  currentIndex = (currentIndex + 1) % images.length; // Próximo índice
+  images[currentIndex].style.display = "block"; // Mostra a próxima imagem
+}
+
+function prevImage(carouselId) {
+  const images = document.querySelectorAll(`#${carouselId} .carousel-image`);
+  let currentIndex = [...images].findIndex(img => img.style.display !== "none");
+  
+  images[currentIndex].style.display = "none"; // Esconde a imagem atual
+  currentIndex = (currentIndex - 1 + images.length) % images.length; // Índice anterior
+  images[currentIndex].style.display = "block"; // Mostra a imagem anterior
+}
+
+
+imgElement.style.opacity = 0; // Fade-out
+setTimeout(() => {
+    imgElement.src = novaImagem;
+    imgElement.style.opacity = 1; // Fade-in
+}, 500);

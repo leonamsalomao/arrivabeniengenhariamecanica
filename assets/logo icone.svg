@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="43.8323mm" height="40.5603mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 3818.96 3533.88"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:#201E1E}
+   ]]>
+  </style>
+   <clipPath id="id0">
+    <path d="M2899.44 3523.51l848.58 1.65 -1863.51 -3525.16 -425.3 795.4 1440.24 2728.11z"/>
+   </clipPath>
+   <clipPath id="id1">
+    <path d="M-0 3524.42l832.95 -0.55 366.7 -700.2 -407.26 -781.18 -792.39 1481.93z"/>
+   </clipPath>
+   <clipPath id="id2">
+    <path d="M1272.29 2662.23l1025.63 14 -162 -328.04 -687.69 -3.9 341.4 -616.95 -413.26 -777.01 -501.66 938.2 397.58 773.71z"/>
+   </clipPath>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M1343.23 2670.95l1025.63 14 -162 -328.04 -687.69 -3.9 341.4 -616.95 -413.26 -777.01 -501.66 938.2 397.58 773.71zm1627.15 861.28l848.58 1.65 -1863.51 -3525.16 -425.3 795.4 1440.24 2728.11zm-2899.44 0.91l832.95 -0.55 366.7 -700.2 -407.26 -781.18 -792.39 1481.93z"/>
+  <g style="clip-path:url(#id0)">
+   <image transform="matrix(6.08262E-15 -0.229667 0.216631 5.73739E-15 -241.454 4475.7)" x="0" y="0" width="27662.67" height="18718.4" xlink:href="logo icone_Images\logo icone_ImgID1.png"/>
+  </g>
+  <g style="clip-path:url(#id1)">
+   <image transform="matrix(6.08262E-15 -0.229667 0.216631 5.73739E-15 -241.454 4475.7)" x="0" y="0" width="27662.67" height="18718.4" xlink:href="logo icone_Images\logo icone_ImgID2.png"/>
+  </g>
+  <g style="clip-path:url(#id2)">
+   <image transform="matrix(6.08262E-15 -0.229667 0.216631 5.73739E-15 -241.454 4475.7)" x="0" y="0" width="27662.67" height="18718.4" xlink:href="logo icone_Images\logo icone_ImgID3.png"/>
+  </g>
+ </g>
+</svg>
