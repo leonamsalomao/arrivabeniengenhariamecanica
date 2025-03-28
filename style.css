@@ -6,7 +6,6 @@
 }
 
 :root {
-  --colornew: #e9b263;
   --hue: 48;
   --primary-color: hsl(var(--hue), 100%, 26%);
   --headline: hsl(36, 11%, 15%);
@@ -360,7 +359,7 @@ body.menu-expanded button path {
 }
 
 #home .stat h3 {
-  font-size: 4.8rem;
+  font-size: 4rem;
   color: var(--headline);
   line-height: 130%;
 
@@ -396,8 +395,9 @@ body.menu-expanded button path {
 }
 
 #services .card h3 {
-  margin-left: 2rem;
-  margin-right:2rem;
+/*   margin-left: 2rem;
+  margin-right:2rem; */
+  text-align: center;
 }
 
 #services .card p {
@@ -417,8 +417,12 @@ body.menu-expanded button path {
   margin: 3px;
   border-radius: 15px;
   width: 80%; /* A imagem ocupa toda a largura */
-  height: auto; /* Mantém a proporção */
+  height: auto; /* Mantém a proporção */ 
   transition: opacity 0.5s ease; /* Transição suave */
+  width: 250px;
+  height: 175px;
+  object-fit: cover;
+
 }
 
 button {
@@ -445,6 +449,8 @@ button:hover {
 #about {
   text-align: left;
   background-color: var(--brand-beige);
+  padding: 0;
+  margin: 0;
 }
 
 #about header h2 {
@@ -487,6 +493,7 @@ footer {
   text-align: left;
 
   color: white;
+  
 }
 
 footer .logo {
@@ -766,6 +773,7 @@ footer .social-links {
 
   #about .content p {
     margin-bottom: 0;
+
   }
 
   /*=== CONTACT =================================*/
@@ -799,9 +807,23 @@ footer .social-links {
     justify-self: flex-end;
   }
 
+  #logoFim{
+    display: flex; /* Habilita o uso do flexbox */
+    justify-content: center; /* Alinha horizontalmente no centro */
+    align-items: center; /* Alinha verticalmente no centro */
+    height: 100vh; /* Define a altura do bloco */ 
+}
+
+#logoFim img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse os limites do bloco */
+    height: auto; /* Mantém as proporções da imagem */
+}
+
+
   .image img{
     max-width: 90%; /* Define o limite máximo para a largura */
     height: auto;    /* Ajusta a altura automaticamente para manter a proporção */
+    display: flex;  
     border-radius: 25px;
   }
 
