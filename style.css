@@ -105,13 +105,13 @@ section header h1 {
   margin-bottom: 2.4rem;
 } */
 
-section .content p {
+/* section .content p {
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 150%;
 
   color: var(--paragraph);
-}
+} */
 
 .button {
   background: var(--primary-color);
@@ -137,6 +137,10 @@ section .content p {
   text-decoration: none;
 
   transition: background 200ms;
+}
+
+#botaologo{
+  margin-top: 20rem;
 }
 
 .button:hover {
@@ -449,7 +453,7 @@ button:hover {
 #about {
   text-align: left;
   background-color: var(--brand-beige);
-  padding: 0;
+  padding: 2rem;
   margin: 0;
 }
 
