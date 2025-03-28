@@ -77,9 +77,7 @@ section header h4 {
 
 section header img{ /* logo */
   margin-bottom: 10rem;
-  display: flex;
-  width: auto;
-  height: auto;
+  padding: 3rem;
   overflow: visible;
 }
 
@@ -137,10 +135,6 @@ section header h1 {
   text-decoration: none;
 
   transition: background 200ms;
-}
-
-#botaologo{
-  margin-top: 20rem;
 }
 
 .button:hover {
