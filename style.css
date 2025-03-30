@@ -707,6 +707,8 @@ footer .social-links {
   #home .col-a {
     text-align: left;
     align-self: center;
+    margin-left: 10rem;
+    padding-bottom: 5rem;
   }
 
   #home h1 {
